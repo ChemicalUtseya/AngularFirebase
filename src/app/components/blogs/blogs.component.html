@@ -1,0 +1,5 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let listing of blogs">
+    <a [routerLink]="['/blog/'+blog.$key]">{{blog.title}}</a>
+  </li>
+</ul>
